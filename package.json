@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf node_modules",
     "start:local": "npm i && nodemon ./app.js",
-    "start:prod": "npm i && node app"
+    "start": "npm i && node app"
   },
   "repository": {
     "type": "git",
