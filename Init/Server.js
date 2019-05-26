@@ -43,7 +43,7 @@ class Server {
 
 	async start () {
 		return new Promise(resolve => {
-			this.app.listen(process.env.SERVER_PORT, () => {
+			this.app.listen(process.env.PORT || process.env.SERVER_PORT, () => {
 				console.info(`[EXPRESS] ${process.env.SERVER_PORT}`);
 				resolve();
 			});
