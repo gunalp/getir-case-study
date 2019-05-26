@@ -1,2 +1,2 @@
-# getir-case-study
-Nodejs Application for getir case study
+# Getir Case Study
+> Nodejs Application for getir case study

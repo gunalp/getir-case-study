@@ -1,0 +1,6 @@
+{
+  "apps": {
+    "script": "npm run start:prod",
+    "name": "getir-case-study"
+  }
+}
